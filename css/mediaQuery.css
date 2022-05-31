@@ -1,0 +1,334 @@
+/* --------------------- Start grid System  --------------------- */
+/* @media (max-width: 576px) {
+  .container{
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container{
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container{
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1140px;
+  }
+} */
+/* --------------------- End grid System  --------------------- */
+
+/* --------------------- Start Contact Us Section --------------------- */
+
+@media (max-width:767px) {
+
+  .landing-page .container{
+    padding: 0px;
+  }
+
+  header{
+    position: relative;
+  }
+
+  header nav.logo{
+    float: none;
+    width: 100%;
+    background: #070707;
+    height: 70px;
+    line-height: 50px;
+    padding: 10px;
+  }
+
+  header nav.main-link{
+    float: none;
+    width: 100%;
+    text-align: center;
+    background-color: #CCC;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
+
+  header .navbar-toggle{
+    display: block;
+  }
+
+  header nav.open{
+    display: block;
+  }
+
+  header ul{
+    width: 100%;
+    padding-right: 0px;
+    margin-top: 0;
+  }
+
+  header ul li {
+    display: block;
+    background-color: #FFF;
+    padding: 10px;
+  }
+
+  header ul li a{
+    color: #999;
+  }
+
+  header ul li:hover a,
+  header ul li a.active{
+    color: #FFF;
+  }
+
+  header ul li:hover,
+  header ul li.active{
+    background-color: var(--main-color);
+  }
+
+  header .header-content{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 25%;
+  }
+
+  .about-us{
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-info-box{
+    padding-left: 0px;
+  }
+
+  .about-img-box{
+    margin-bottom: 50px;
+    padding-right: 0px;
+  }
+
+  .our-skills .container{
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .skills-info-box{
+    margin-bottom: 50px;
+    padding-right: 0px;
+  }
+
+  .skills-img-box{
+    padding-left: 0px;
+  }
+
+  .gallery .imgs-box img{
+    width: calc(98%/2);
+  }
+
+  .popup-box{
+    width: 400px;
+  }
+
+  .close-button{
+    top: -50px;
+    right: -25px;
+
+  }
+
+  .timeline-box .left-content::before,
+  .timeline-box .right-content::before{
+    content: none;
+  }
+
+  .feature-box{
+    width: calc(100%/2);
+    margin-bottom: 30px;
+  }
+
+  .testimonial .container{
+    padding: 20px;
+  }
+
+  .testimonial .ts-box{
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+
+  }
+
+  .contact-us .left{
+    float: none;
+    width: 100%;
+  }
+
+  .contact-us .right{
+    float: none;
+    width: 100%;
+  }
+
+}
+
+@media (min-width:768px) and (max-width: 992px){
+
+  .landing-page .container{
+    padding: 0px;
+  }
+
+  header nav{
+    background: #070707;
+  }
+
+  header nav.logo{
+    width: 35%;
+    padding: 10px;
+    height: 70px;
+    line-height: 50px;
+  }
+
+  header nav.main-link{
+    width: 65%;
+    height: 50px;
+    height: 70px;
+    line-height: 30px;
+  }
+  header nav.main-link li{
+    padding: 12px 6px;
+  }
+
+  header .header-content{
+    width: 90%;
+    margin-top: 28%;
+  }
+
+  .about-img-box{
+    padding-right: 0px;
+  }
+
+  .about-img-box img{
+    margin-top: 80px;
+  }
+
+  .skills-img-box{
+    padding-left: 0px;
+  }
+  .skills-img-box img{
+    margin-top: 70px;
+  }
+
+  .gallery .imgs-box img{
+    width: calc(98%/3);
+  }
+
+  .gallery .imgs-box img:last-child{
+    display: none;
+  }
+
+  .popup-box{
+    width: 680px;
+  }
+
+  .close-button{
+    top: -50px;
+    right: -25px;
+
+  }
+
+  .timeline-box .left-content::before{
+    right: -8.8%;
+  }
+
+  .timeline-box .right-content::before{
+    left: -8.8%;
+  }
+
+  .testimonial .ts-box{
+    border: none;
+  }
+
+  .testimonial .ts-info-box p {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+
+}
+
+
+@media (min-width: 992px) and (max-width:1200px){
+
+  header nav.logo{
+    width: 42%;
+
+  }
+
+  header nav.main-link{
+    width: 58%;
+  }
+
+  header .header-content{
+    width: 70%;
+    margin-top: 20%;
+  }
+
+  .about-img-box{
+    padding-right: 0px;
+  }
+
+  .about-img-box img{
+    margin-top: 50px;
+  }
+
+  .skills-img-box{
+    padding-left: 0px;
+  }
+   .skills-img-box img{
+    margin-top: 40px;
+  }
+
+  .gallery .imgs-box img{
+    width: calc(98%/3);
+  }
+
+  .gallery .imgs-box img:last-child{
+    display: none;
+  }
+
+  .popup-box{
+    width: 800px;
+  }
+
+}
+
+
+@media (min-width:1200px) {
+
+}
+
+/*
+------------------------------------------------------
+// Template
+------------------------------------------------------
+*/
+
+/* @media (max-width:767px) {
+}
+
+@media (min-width:768px) and (max-width: 992px){
+
+}
+
+
+@media (min-width: 992px) and (max-width:1200px){
+
+}
+
+
+@media (min-width:1200px) {
+
+} */

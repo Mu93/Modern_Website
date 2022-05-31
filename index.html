@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project_1</title>
+    <link rel="stylesheet" href="fonts/OpenSans/OpenSans-Bold-webfont.woff" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/mediaQuery.css" />
+  </head>
+  <body>
+    <!-- --------------------- Start Settings Box Section --------------------- -->
+    <section class="settings-box">
+      <section class="gear-container">
+        <i class="fa fa-gear fa-2x fa-spin"></i>
+      </section>
+      <section class="settings-container">
+        <section class="option-box">
+          <h4>Colors Options</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#FFB302"></li>
+            <li data-color="#1D77F5"></li>
+            <li data-color="#FF1E1E"></li>
+            <li data-color="#49CC02"></li>
+            <li data-color="#601DBF"></li>
+          </ul>
+        </section>
+        <section class="option-box">
+          <h4>Random Background</h4>
+          <section class="background-option">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </section>
+        </section>
+        <section class="option-box">
+          <h4>Show Bullets</h4>
+          <section class="show-bullets">
+            <span class="block active" data-display="block">Yes</span>
+            <span class="none" data-display="none">No</span>
+          </section>
+        </section>
+
+        <button class="default-reset" type="button" name="button">
+          Default Reset
+        </button>
+      </section>
+    </section>
+
+    <!-- --------------------- End Settings Box Section --------------------- -->
+
+    <!-- --------------------- Start Nav Bullets Section --------------------- -->
+    <section class="nav-bullets">
+      <section class="bullet" data-section=".about-us">
+        <section class="tooltip">About Us</section>
+      </section>
+      <section class="bullet" data-section=".our-skills">
+        <section class="tooltip">Our Skills</section>
+      </section>
+      <section class="bullet" data-section=".gallery">
+        <section class="tooltip">Gallery</section>
+      </section>
+      <section class="bullet" data-section=".timeline">
+        <section class="tooltip">Timeline</section>
+      </section>
+      <section class="bullet" data-section=".our-feature">
+        <section class="tooltip">Our Feature</section>
+      </section>
+      <section class="bullet" data-section=".testimonial">
+        <section class="tooltip">Testimonial</section>
+      </section>
+    </section>
+    <!-- --------------------- End Nav Bullets Section --------------------- -->
+
+    <!-- --------------------- Start Landing Page Section --------------------- -->
+    <section class="landing-page">
+      <section class="overlay"></section>
+      <section class="container">
+        <header>
+          <nav class="logo">
+            <h3>Creative Agency</h3>
+            <i class="fa fa-bars fa-lg navbar-toggle"><span></span></i>
+          </nav>
+          <nav class="main-link">
+            <ul>
+              <li class="active">
+                <a class="active" href="#" data-section=".about-us">About</a>
+              </li>
+              <li><a href="#" data-section=".our-skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".our-feature">Features</a></li>
+              <li><a href="#" data-section=".testimonial">Testimonial</a></li>
+            </ul>
+          </nav>
+
+          <section class="clearFix"></section>
+          <section class="header-content">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </section>
+        </header>
+      </section>
+    </section>
+    <!-- --------------------- End Landing Page Section --------------------- -->
+
+    <!-- --------------------- Start About Us Section --------------------- -->
+    <section class="container">
+      <section class="about-us">
+        <section class="about-img-box">
+          <img src="img/about-us.svg" alt="" />
+        </section>
+
+        <section class="about-info-box">
+          <h2>About US</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section>
+      </section>
+    </section>
+
+    <!-- --------------------- End About Us Section --------------------- -->
+
+    <!-- --------------------- Start Our Skills Section --------------------- -->
+    <section class="our-skills">
+      <section class="container">
+        <section class="skills-info-box">
+          <h2>Our Skills</h2>
+          <section class="skill-box">
+            <section class="skill-bar" data-progress="95%">
+              HTML5<span>95%</span>
+            </section>
+          </section>
+          <section class="skill-box">
+            <section class="skill-bar" data-progress="90%">
+              CSS3<span>90%</span>
+            </section>
+          </section>
+          <section class="skill-box">
+            <section class="skill-bar" data-progress="75%">
+              JavaScript<span>75%</span>
+            </section>
+          </section>
+          <section class="skill-box">
+            <section class="skill-bar" data-progress="80%">
+              JQuery<span>80%</span>
+            </section>
+          </section>
+          <section class="skill-box">
+            <section class="skill-bar" data-progress="25%">
+              PHP<span>25%</span>
+            </section>
+          </section>
+        </section>
+
+        <section class="skills-img-box">
+          <img src="img/our-skills.svg" alt="" />
+        </section>
+      </section>
+    </section>
+    <!-- --------------------- End Our Skills Section --------------------- -->
+
+    <!-- --------------------- Start Gallery Section --------------------- -->
+    <section class="gallery">
+      <section class="container">
+        <h2>Our Gallery</h2>
+        <section class="imgs-box">
+          <img src="img/img-1.jpg" alt="IMG (1)" />
+          <img src="img/img-2.jpg" alt="IMG (2)" />
+          <img src="img/img-3.jpg" alt="IMG (3)" />
+          <img src="img/img-4.jpg" alt="IMG (4)" />
+          <img src="img/img-5.jpg" alt="IMG (5)" />
+          <img src="img/img-6.jpg" alt="" />
+          <img src="img/img-7.jpg" alt="" />
+          <img src="img/img-8.jpg" alt="" />
+          <img src="img/img-9.jpg" alt="" />
+          <img src="img/img-10.jpg" alt="" />
+        </section>
+      </section>
+    </section>
+    <!-- --------------------- End Gallery Section --------------------- -->
+
+    <!-- --------------------- Start Timeline Section --------------------- -->
+    <section class="timeline">
+      <section class="container">
+        <section class="timeline-box">
+          <section class="year">2020</section>
+          <section class="left-content">
+            <section class="timeline-info">
+              <h3>Content Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </section>
+          </section>
+
+          <section class="clearFix"></section>
+
+          <section class="right-content">
+            <section class="timeline-info">
+              <h3>Content Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </section>
+          </section>
+
+          <section class="clearFix"></section>
+
+          <section class="year">2019</section>
+
+          <section class="left-content">
+            <section class="timeline-info">
+              <h3>Content Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </section>
+          </section>
+          <section class="clearFix"></section>
+
+          <section class="left-content">
+            <section class="timeline-info">
+              <h3>Content Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <!-- --------------------- End Timeline Section --------------------- -->
+
+    <!-- --------------------- Start Our feature Section --------------------- -->
+
+    <section class="our-feature">
+      <h2>Our Feature</h2>
+      <section class="container">
+        <section class="feature-box">
+          <img src="img/features/feature-1.svg" alt="" />
+          <h4>Private</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </section>
+        <section class="feature-box">
+          <img src="img/features/feature-2.svg" alt="" />
+          <h4>Certificate</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </section>
+        <section class="feature-box">
+          <img src="img/features/feature-3.svg" alt="" />
+          <h4>Clean Code</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </section>
+        <section class="feature-box">
+          <img src="img/features/feature-4.svg" alt="" />
+          <h4>Contract</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </section>
+        <section class="feature-box">
+          <img src="img/features/feature-5.svg" alt="" />
+          <h4>Fast Delivery</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </section>
+        <section class="feature-box">
+          <img src="img/features/feature-6.svg" alt="" />
+          <h4>Multi Tasking</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </section>
+      </section>
+    </section>
+
+    <!-- --------------------- End Our feature Section --------------------- -->
+
+    <!-- --------------------- Start Testimonial Section --------------------- -->
+    <section class="testimonial">
+      <h2>Testimonial</h2>
+      <section class="container">
+        <section class="testimonial-content">
+          <section class="ts-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <section class="ts-img-box">
+              <img src="img/avatar/svg/avatar-5.svg" alt="" />
+            </section>
+            <section class="ts-info-box">
+              <h4>Mona Sayed</h4>
+              <p>CEO At Company</p>
+            </section>
+          </section>
+          <section class="ts-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <section class="ts-img-box">
+              <img src="img/avatar/svg/avatar-8.svg" alt="" />
+            </section>
+            <section class="ts-info-box">
+              <h4>Ahmed Sayed</h4>
+              <p>CEO At Company</p>
+            </section>
+          </section>
+          <section class="ts-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <section class="ts-img-box">
+              <img src="img/avatar/svg/avatar-7.svg" alt="" />
+            </section>
+            <section class="ts-info-box">
+              <h4>Osama Sayed</h4>
+              <p>CEO At Company</p>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- --------------------- End Testimonial Section --------------------- -->
+
+    <!-- --------------------- Start Contact Us Section --------------------- -->
+    <section class="contact-us">
+      <section class="overlay"></section>
+      <section class="container">
+        <h2>Contact Us</h2>
+
+        <form class="" action="index.html" method="post">
+          <section class="left">
+            <input
+              type="text"
+              name="userName"
+              value=""
+              placeholder="User Name"
+            />
+            <input
+              type="text"
+              name="phoneNumber"
+              value=""
+              placeholder="Phone Number"
+            />
+            <input type="email" name="email" value="" placeholder="Email" />
+            <input type="text" name="subject" value="" placeholder="Subject" />
+          </section>
+          <section class="right">
+            <textarea name="name" placeholder="Your Message"></textarea>
+            <input type="submit" name="" value="Contact" />
+          </section>
+        </form>
+      </section>
+    </section>
+
+    <!-- --------------------- End Contact Us Section --------------------- -->
+
+    <footer>
+      Copyright (c) 2020, Muhammed Abdelhakeem All Rights Reserved.
+    </footer>
+
+    <script src="js/master.js"></script>
+  </body>
+</html>
